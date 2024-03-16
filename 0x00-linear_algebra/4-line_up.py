@@ -14,7 +14,7 @@ def add_arrays(arr1, arr2):
 if __name__ == '__main__':
     arr1 = [1, 2, 3, 4]
     arr2 = [5, 6, 7, 8]
-    add_arrays(arr1, arr2)
+    print(add_arrays(arr1, arr2))
     print(arr1)
     print(arr2)
-    add_arrays(arr1, [1, 2, 3])
+    print(add_arrays(arr1, [1, 2, 3]))
